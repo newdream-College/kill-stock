@@ -1,0 +1,36 @@
+*.class
+
+#package file
+(*.jar没配 主要要提交支付宝jar)
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse
+.settings/
+.project
+.classpath
+
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore 系统文件
+.DS_Store
+Thumbs.db
